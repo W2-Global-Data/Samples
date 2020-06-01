@@ -1,0 +1,69 @@
+PODS:
+  - AcuantiOSSDKV11 (11.2.7):
+    - AcuantiOSSDKV11/AcuantCamera (= 11.2.7)
+    - iProov (~> 7.2.0)
+  - AcuantiOSSDKV11/AcuantCamera (11.2.7):
+    - iProov (~> 7.2.0)
+  - Alamofire (4.9.1)
+  - iProov (7.2.2):
+    - KeychainAccess (~> 4.1.0)
+    - Socket.IO-Client-Swift (~> 15.2.0)
+    - SwiftyJSON (~> 4.0.0)
+  - KeychainAccess (4.1.0)
+  - SnapKit (5.0.1)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftyJSON (4.0.0)
+  - W2SDK/W2DocumentVerificationClient (1.4.0):
+    - Alamofire (= 4.9.1)
+    - W2SDKCore (= 1.4.0)
+  - W2SDK/W2DocumentVerificationClientCapture (1.4.0):
+    - Alamofire (= 4.9.1)
+    - W2SDKCore (= 1.4.0)
+  - W2SDK/W2FacialComparisonClient (1.4.0):
+    - Alamofire (= 4.9.1)
+    - W2SDKCore (= 1.4.0)
+  - W2SDK/W2FacialComparisonClientCapture (1.4.0):
+    - Alamofire (= 4.9.1)
+    - W2SDKCore (= 1.4.0)
+  - W2SDKCore (1.4.0):
+    - AcuantiOSSDKV11 (= 11.2.7)
+    - Alamofire (= 4.9.1)
+    - SnapKit (= 5.0.1)
+
+DEPENDENCIES:
+  - W2SDK/W2DocumentVerificationClient (= 1.4.0)
+  - W2SDK/W2DocumentVerificationClientCapture (= 1.4.0)
+  - W2SDK/W2FacialComparisonClient (= 1.4.0)
+  - W2SDK/W2FacialComparisonClientCapture (= 1.4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AcuantiOSSDKV11
+    - Alamofire
+    - iProov
+    - KeychainAccess
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+  https://github.com/W2-Global-Data/cocoapods-podspecs.git:
+    - W2SDK
+    - W2SDKCore
+
+SPEC CHECKSUMS:
+  AcuantiOSSDKV11: ec4324a94b630bb8d9b1c6a8c31d366e97eec3c7
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  iProov: e42cea754898c6ccd3ddd2d586f3763ba4e78e95
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  W2SDK: ba9f4c01888b7f70ac0f3b4ab552b16cf2b6e48b
+  W2SDKCore: d092d742f1ad5ed460a150c5bce41c12e1a9300c
+
+PODFILE CHECKSUM: 53a6a26632a798920e539059a14f79e35327b66a
+
+COCOAPODS: 1.9.1
