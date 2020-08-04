@@ -26,8 +26,8 @@ allprojects {
         maven {
             url = "https://maven.pkg.github.com/W2-Global-Data/maven-feed"
             credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_PAT_TOKEN")
+                username = "GITHUB_USERNAME"
+                password = "GITHUB_PAT_TOKEN"
             }
         }
         
